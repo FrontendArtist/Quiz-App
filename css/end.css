@@ -1,0 +1,46 @@
+#container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    padding: 50px;
+}
+#score-box{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: #64CCC5;
+    color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 40px;
+
+}
+#user-name{
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #053B50;
+    background-color: #eeeeee;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.ending-button{
+    cursor: pointer;
+    background-color: #64CCC5;
+    border: none;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #053B50;
+}

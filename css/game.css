@@ -1,0 +1,117 @@
+#loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 7px solid #053B50;
+    border-bottom-color:transparent ;
+    border-top-color:transparent ;
+    animation: rotation 1.5s linear infinite;
+}
+@keyframes rotation {
+    0%{
+    transform: rotate(0deg);
+}
+    100%{
+    transform: rotate(180deg);
+}
+}
+#error{
+    display: none;
+    background-color:#cc6464;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-radius: 10px;
+    color: #eeeeee;
+}
+#container{
+    display: none;
+    width: 700px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header div {
+    display: flex;
+    align-items: center;
+}
+.header p {
+    color: #176B87;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.header span{
+    background-color: #64CCC5;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #053B50;
+    border-radius: 4px;
+}
+#question-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+h3{
+    background-color: #053B50;
+    height: 80px;
+    color: #eeeeee;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.answer-text{ 
+    background-color: #e9e9ed;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s ease-in;
+}
+.completed{ 
+
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s ease-in;
+}
+.answer-text:hover {
+    background-color: #64CCC5;
+}
+#next-button,
+#finish-button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #176B87;
+    font-size: 1rem;
+    color: #176B87;
+    margin-right: 10px;
+    transition: all 0.2s ease-in;
+}
+#next-button:hover,
+#finish-button:hover {
+    font-size: 1rem;
+    background-color: #176B87;
+    color: #e9e9ed;
+    margin-right: 10px;
+}
+.correct{
+    background-color: #64cc69;
+}
+.incorrect{
+    background-color: #cc6464;
+}
