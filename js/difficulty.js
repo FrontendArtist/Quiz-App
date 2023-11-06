@@ -5,7 +5,7 @@ const difficultyHandler = (event) => {
   switch (difficulty) {
     case "Easy":
       localStorage.setItem("difficulty", JSON.stringify("Easy"));
-      alert("difficulty is Hard");
+      alert("difficulty is Easy");
       break;
     case "Medium":
       localStorage.setItem("difficulty", JSON.stringify("Medium"));
@@ -13,7 +13,7 @@ const difficultyHandler = (event) => {
       break;
     case "Hard":
       localStorage.setItem("difficulty", JSON.stringify("Hard"));
-      alert("difficulty is Easy");
+      alert("difficulty is Hard");
       break;
 
     default:
